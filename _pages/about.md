@@ -15,15 +15,22 @@ methodologies with applications to renewable energy and microgrids.
 
 ## Brief Bio
 I am an Assistant Professor in the Department of Electronics at the 
-[University of Amar Telidji, Laghouat](https://www.lagh-univ.dz/en/), 
+[University of Amar Telidji, Laghouat](https://www.lagh-univ.dz), 
 Algeria (Member, IEEE). I received my Ph.D. in Control Engineering 
-in 2017, under joint supervision of the University of Amar Telidji 
-and [Université Polytechnique Hauts-de-France](https://www.uphf.fr/).
+in 2017, under the joint supervision of 
+[Prof. Atallah Benalia](https://scholar.google.com/citations?user=BQDkUg8AAAAJ) 
+(University of Amar Telidji, Laghouat) and 
+[Prof. Mohammed Djemai](https://scholar.google.com/citations?user=ApP9SGcAAAAJ) 
+(ENSEA-Cergy Paris, France).
 
 Following my Ph.D., I held a Postdoctoral Fellowship at 
 [École Centrale de Nantes](https://www.ec-nantes.fr/), France 
 (2017–2018), and a Research Associate position at the 
-[University of Cambridge](https://www.cam.ac.uk/), U.K. (2018–2019).
+[University of Cambridge](https://www.cam.ac.uk/), U.K. (2018–2019), 
+working with [Prof. Ioannis Lestas](https://scholar.google.com/citations?user=AXz9SEoAAAAJ) 
+on an ERC-funded project on analysis and control of large-scale networks, 
+focusing on decentralized stability and performance conditions with 
+applications to power systems and smart grids.
 
 My research interests include **advanced control systems**, 
 **nonlinear dynamics**, **renewable energy technologies**, 
