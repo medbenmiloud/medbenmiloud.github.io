@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Mohammed Benmiloud"
 title_separator          : "-"
 name                     : &name "Mohammed Benmiloud"
-description              : &description "Seek knowledge from cradle to grave"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Assistant Professor at the University of Laghouat. Research in Control Theory, Hybrid Dynamical Systems, and Nonlinear Dynamics."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://medbenmiloud.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Mohammed Benmiloud"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor at the University of Laghouat. Research in Control Theory, Hybrid Dynamical Systems, and Nonlinear Dynamics."
+  bio              : "Seek knowledge from cradle to grave."
   location         : "Laghouat, Algeria"
   employer         : "Amar Telidji University"
   uri              : # URL
@@ -38,11 +38,11 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=cwmpZVQAAAAJ&hl=en&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0003-4629-7113"
+  orcid            : 
   semantic         : # URL
   ssrn             : # URL
   pubmed           : 
-  researchgate     : "https://www.researchgate.net/profile/Mohammed-Benmiloud" # URL
+  researchgate     :  # URL
   scopus           : # URL
   zotero           : # URL
 
