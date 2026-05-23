@@ -25,6 +25,11 @@ author_profile: true
   flex: 1;
   min-width: 0;
 }
+
+.pub-item .pub-text p {
+  margin: 0.3em 0;
+  font-size: 0.9em;
+}
 </style>
 
 {% if site.author.googlescholar %}
@@ -44,9 +49,13 @@ author_profile: true
             <img src="/images/{{ post.header.teaser }}" alt="{{ post.title }}">
           {% endif %}
           <div class="pub-text">
-            <a href="{{ post.paperurl }}" target="_blank"><strong>{{ post.title }}</strong></a>
+            <a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ post.url }}{% endif %}" target="_blank">
+              <strong>{{ post.title }}</strong>
+            </a>
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-            <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+            {% if post.excerpt %}
+              <p><strong>Authors:</strong> {{ post.excerpt }}</p>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
