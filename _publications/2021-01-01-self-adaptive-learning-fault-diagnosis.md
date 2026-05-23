@@ -11,5 +11,3 @@ featured: true
 header:
   teaser: "SelfAdaptive.png"
 ---
-
-**Authors:** Toubakh, H., Sayed-Mouchaweh, M., Benmiloud, M., Defoort, M., Djemai, M.
