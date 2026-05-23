@@ -7,5 +7,5 @@ date: 2025-02-01
 venue: 'IECON 2025 -- 51st Annual Conference of the IEEE Industrial Electronics Society'
 featured: true
 header:
-  teaser: "HybridAutomatonbuck.png"
+  teaser: "3dLimitCycleSync.png"
 ---
