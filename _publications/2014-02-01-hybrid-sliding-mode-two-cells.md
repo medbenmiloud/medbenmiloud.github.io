@@ -6,6 +6,8 @@ permalink: /publication/2014-hybrid-sliding-mode-two-cells
 date: 2014-02-01
 venue: '2014 13th International Workshop on Variable Structure Systems (VSS)'
 pages: '1--6'
+excerpt: 'Benmiloud, M., Benalia, A., Djemai, M.'
+paperurl: 'https://ieeexplore.ieee.org/document/6881141'
 featured: false
 ---
 
