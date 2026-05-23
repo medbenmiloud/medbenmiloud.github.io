@@ -8,6 +8,7 @@ venue: '2022 19th International Multi-Conference on Systems, Signals & Devices (
 pages: '1199--1204'
 featured: true
 paperurl: 'https://ieeexplore.ieee.org/document/9955805'
+excerpt: 'Benzoubir, M., Benmiloud, M., Bougrine, M., Gazzam, N., Benalia, A.'
 header:
   teaser: "TwistingGrid.png"
 ---
