@@ -9,6 +9,7 @@ volume: 49
 pages: '29--41'
 featured: true
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0967066116300119'
+excerpt: 'Benmiloud, M., Benalia, A., Defoort, M., Djemai, M.'
 header:
   teaser: "3Dconvergence.png"
 ---
