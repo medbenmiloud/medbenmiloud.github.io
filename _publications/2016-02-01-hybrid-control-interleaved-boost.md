@@ -7,6 +7,7 @@ date: 2016-02-01
 venue: 'IECON 2016 -- 42nd Annual Conference of the IEEE Industrial Electronics Society'
 pages: '3419--3424'
 featured: true
+paperurl: 'https://ieeexplore.ieee.org/document/7793036'
 header:
   teaser: "StabLimitCycle.png"
 ---
