@@ -7,6 +7,8 @@ date: 2022-02-01
 venue: '2022 19th International Multi-Conference on Systems, Signals & Devices (SSD)'
 pages: '1199--1204'
 featured: true
+header:
+  teaser: "TwistingGrid.png"
 ---
 
 **Authors:** Benzoubir, M., Benmiloud, M., Bougrine, M., Gazzam, N., Benalia, A.
