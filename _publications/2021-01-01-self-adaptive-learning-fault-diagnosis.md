@@ -9,6 +9,7 @@ volume: 113
 pages: '222--231'
 featured: true
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0019057820301336'
+excerpt: 'Toubakh, H., Sayed-Mouchaweh, M., Benmiloud, M., Defoort, M., Djemai, M.'
 header:
   teaser: "SelfAdaptive.png"
 ---
