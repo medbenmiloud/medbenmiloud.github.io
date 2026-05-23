@@ -13,27 +13,18 @@ author_profile: true
 
 {% if site.publication_category %}
   {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% if post.featured != true %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-    {% endfor %}
-    {% if title_shown %}
+
+    {% assign category_posts = site.publications | where: "category", category[0] | where: "featured", true %}
+    
+    {% if category_posts.size > 0 %}
+      <h2>{{ category[1].title }}</h2><hr />
       <div class="grid__wrapper">
-        {% for post in site.publications reversed %}
-          {% if post.category != category[0] %}{% continue %}{% endif %}
-          {% if post.featured != true %}{% continue %}{% endif %}
+        {% for post in category_posts reversed %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
+      <br style="clear:both;">
     {% endif %}
+
   {% endfor %}
 {% endif %}
