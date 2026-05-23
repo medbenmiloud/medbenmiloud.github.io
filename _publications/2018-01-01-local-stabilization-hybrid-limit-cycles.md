@@ -8,6 +8,7 @@ venue: 'IEEE Transactions on Automatic Control'
 volume: 64
 number: 2
 featured: true
+paperurl: 'https://ieeexplore.ieee.org/document/8368141'
 header:
   teaser: "3dLimitCycle.png"
 ---
