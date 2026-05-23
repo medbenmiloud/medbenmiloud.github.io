@@ -7,7 +7,7 @@ date: 2026-01-01
 venue: 'Electrical Engineering, Springer'
 featured: true
 header:
-  teaser: "InrushCurrent.webp"
+  teaser: "flatnessPushPull.jpg"
 ---
 
 **Authors:** Benmiloud, M., Ameur, K., Lestas, I., Benalia, A.
