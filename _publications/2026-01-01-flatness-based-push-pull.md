@@ -10,3 +10,4 @@ paperurl: 'https://link.springer.com/article/10.1007/s00202-026-03516-1'
 header:
   teaser: "InrushCurrent.webp"
 ---
+**Authors:** Benmiloud, M., Ameur, K., Lestas, I., Benalia, A.
