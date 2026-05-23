@@ -9,6 +9,7 @@ volume: 91
 number: 7
 pages: '1720--1729'
 featured: true
+paperurl: 'https://www.tandfonline.com/doi/full/10.1080/00207179.2017.1327723'
 header:
   teaser: "PlanarLimitCycle.png"
 ---
