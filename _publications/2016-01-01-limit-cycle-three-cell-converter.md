@@ -8,6 +8,6 @@ venue: 'Control Engineering Practice'
 volume: 49
 pages: '29--41'
 featured: true
+header:
+  teaser: "3Dconvergence.png"
 ---
-
-**Authors:** Benmiloud, M., Benalia, A., Defoort, M., Djemai, M.
