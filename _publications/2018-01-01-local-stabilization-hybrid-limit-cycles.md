@@ -9,6 +9,7 @@ volume: 64
 number: 2
 featured: true
 paperurl: 'https://ieeexplore.ieee.org/document/8368141'
+excerpt: 'Benmiloud, M., Benalia, A., Djemai, M., Defoort, M.'
 header:
   teaser: "3dLimitCycle.png"
 ---
