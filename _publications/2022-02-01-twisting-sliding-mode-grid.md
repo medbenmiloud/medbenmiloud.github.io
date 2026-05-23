@@ -10,5 +10,3 @@ featured: true
 header:
   teaser: "TwistingGrid.png"
 ---
-
-**Authors:** Benzoubir, M., Benmiloud, M., Bougrine, M., Gazzam, N., Benalia, A.
