@@ -9,6 +9,8 @@ volume: 108
 number: 3
 pages: '171'
 featured: true
+header:
+  teaser: "flatnessPushPull.jpg"
 ---
 
 **Authors:** Benmiloud, M., Ameur, K., Lestas, I., Benalia, A.
