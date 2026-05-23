@@ -12,6 +12,12 @@ author_profile: true
   object-fit: cover;
   object-position: center;
 }
+
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
 </style>
 
 {% if site.author.googlescholar %}
