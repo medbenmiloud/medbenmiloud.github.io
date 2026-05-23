@@ -7,6 +7,7 @@ date: 2022-02-01
 venue: '2022 19th International Multi-Conference on Systems, Signals & Devices (SSD)'
 pages: '1199--1204'
 featured: true
+paperurl: 'https://ieeexplore.ieee.org/document/9955805'
 header:
   teaser: "TwistingGrid.png"
 ---
