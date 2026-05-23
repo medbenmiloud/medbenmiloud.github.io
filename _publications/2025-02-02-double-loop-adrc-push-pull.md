@@ -6,6 +6,7 @@ permalink: /publication/2025-double-loop-adrc-push-pull
 date: 2025-02-02
 venue: '2025 6th International Conference on Power Electronics and their Applications (ICPEA)'
 featured: true
+paperurl: 'https://ieeexplore.ieee.org/document/11453110'
 header:
   teaser: "doubleLoopADRC.png"
 ---
