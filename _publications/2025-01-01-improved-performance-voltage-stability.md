@@ -7,6 +7,7 @@ date: 2025-01-01
 venue: 'IEEE Access'
 featured: true
 paperurl: 'https://ieeexplore.ieee.org/document/10869462'
+excerpt: 'Benzoubir, M.E., Lashab, A., Rayane, K., Benmiloud, M., Bougrine, M., Benalia, A., Trabelsi, M., Vahedi, H.'
 header:
   teaser: "PI_lead.gif"
 ---
