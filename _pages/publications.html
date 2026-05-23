@@ -6,13 +6,21 @@ author_profile: true
 ---
 
 <style>
+.pub-container {
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
 .archive__item-teaser {
   overflow: hidden;
+  width: 100%;
 }
 
 .archive__item-teaser img {
-  width: 100%;
-  height: 120px;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 150px !important;
   object-fit: cover;
   object-position: center;
   display: block;
@@ -22,16 +30,26 @@ author_profile: true
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5em;
-  width: 100%;
-  overflow: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .grid__wrapper .grid__item {
   min-width: 0;
-  width: 100% !important;
+  max-width: 100%;
+  box-sizing: border-box;
   overflow: hidden;
+  word-wrap: break-word;
+}
+
+.grid__wrapper .archive__item-title {
+  font-size: 0.85em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
+
+<div class="pub-container">
 
 {% if site.author.googlescholar %}
   <div class="wordwrap" style="margin-bottom: 1.5em;">You can also find my articles on <a href="{{site.author.googlescholar}}" target="_blank">my Google Scholar profile</a>.</div>
@@ -53,3 +71,5 @@ author_profile: true
     {% endif %}
   {% endfor %}
 {% endif %}
+
+</div>
