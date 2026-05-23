@@ -10,7 +10,9 @@ number: 3
 pages: '171'
 featured: true
 header:
-  teaser: "flatnessPushPull.jpg"
+  teaser: "/images/flatnessPushPull.jpg"
 ---
 
 **Authors:** Benmiloud, M., Ameur, K., Lestas, I., Benalia, A.
+
+<img src='/images/flatnessPushPull.jpg' style='width:100%; max-width:600px; margin-top:10px;'>
