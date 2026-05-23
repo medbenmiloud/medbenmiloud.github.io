@@ -7,5 +7,5 @@ date: 2025-02-03
 venue: 'BIOMEIC 2025 -- International Conference on Biomedical Engineering and Informatics, University of Tlemcen'
 featured: true
 header:
-  teaser: "HILinsulin"
+  teaser: "HILinsulin.png"
 ---
