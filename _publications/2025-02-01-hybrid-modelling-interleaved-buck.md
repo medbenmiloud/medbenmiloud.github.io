@@ -7,6 +7,7 @@ date: 2025-02-01
 venue: 'IECON 2025 -- 51st Annual Conference of the IEEE Industrial Electronics Society'
 featured: true
 paperurl: 'https://ieeexplore.ieee.org/document/11221164'
+excerpt: 'Benmiloud, M., Rayane, K., Benalia, A., Trabelsi, M.'
 header:
   teaser: "3dLimitCycleSync.png"
 ---
