@@ -8,6 +8,6 @@ venue: 'IEEE Transactions on Automatic Control'
 volume: 64
 number: 2
 featured: true
+header:
+  teaser: "3dLimitCycle.png"
 ---
-
-**Authors:** Benmiloud, M., Benalia, A., Djemai, M., Defoort, M.
