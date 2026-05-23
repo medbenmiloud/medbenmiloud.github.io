@@ -5,7 +5,6 @@ category: manuscripts
 permalink: /publication/2026-flatness-based-push-pull
 date: 2026-01-01
 venue: 'Electrical Engineering, Springer'
-paperurl: 'https://link.springer.com/article/10.1007/s00202-025-02971-6'
 featured: true
 header:
   teaser: "flatnessPushPull.jpg"
