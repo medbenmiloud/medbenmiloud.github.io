@@ -9,5 +9,3 @@ featured: true
 header:
   teaser: "PI_lead.gif"
 ---
-
-**Authors:** Benzoubir, M.E., Lashab, A., Rayane, K., Benmiloud, M., Bougrine, M., Benalia, A., Trabelsi, M., Vahedi, H.
