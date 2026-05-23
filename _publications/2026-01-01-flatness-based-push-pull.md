@@ -7,5 +7,5 @@ date: 2026-01-01
 venue: 'Electrical Engineering, Springer'
 featured: true
 header:
-  teaser: "flatnessPushPull.jpg"
+  teaser: "InrushCurrent.webp"
 ---
