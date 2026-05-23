@@ -7,6 +7,6 @@ date: 2016-02-01
 venue: 'IECON 2016 -- 42nd Annual Conference of the IEEE Industrial Electronics Society'
 pages: '3419--3424'
 featured: true
+header:
+  teaser: "StabLimitCycle.png"
 ---
-
-**Authors:** Bougrine, M., Benmiloud, M., Benalia, A., Benbouzid, M., Delaleau, E.
