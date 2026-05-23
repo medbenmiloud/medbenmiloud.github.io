@@ -6,50 +6,26 @@ author_profile: true
 ---
 
 <style>
-.pub-container {
-  max-width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
+.pub-item {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+  align-items: flex-start;
 }
 
-.archive__item-teaser {
-  overflow: hidden;
-  width: 100%;
-}
-
-.archive__item-teaser img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 150px !important;
+.pub-item img {
+  width: 120px;
+  min-width: 120px;
+  height: 90px;
   object-fit: cover;
-  object-position: center;
-  display: block;
+  border-radius: 4px;
 }
 
-.grid__wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5em;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.grid__wrapper .grid__item {
+.pub-item .pub-text {
+  flex: 1;
   min-width: 0;
-  max-width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
-  word-wrap: break-word;
-}
-
-.grid__wrapper .archive__item-title {
-  font-size: 0.85em;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 </style>
-
-<div class="pub-container">
 
 {% if site.author.googlescholar %}
   <div class="wordwrap" style="margin-bottom: 1.5em;">You can also find my articles on <a href="{{site.author.googlescholar}}" target="_blank">my Google Scholar profile</a>.</div>
@@ -62,14 +38,18 @@ author_profile: true
     {% assign category_posts = site.publications | where: "category", category[0] | where: "featured", true %}
     {% if category_posts.size > 0 %}
       <h2>{{ category[1].title }}</h2><hr />
-      <div class="grid__wrapper">
-        {% for post in category_posts reversed %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
-      <br style="clear:both;">
+      {% for post in category_posts reversed %}
+        <div class="pub-item">
+          {% if post.header.teaser %}
+            <img src="/images/{{ post.header.teaser }}" alt="{{ post.title }}">
+          {% endif %}
+          <div class="pub-text">
+            <a href="{{ post.paperurl }}" target="_blank"><strong>{{ post.title }}</strong></a>
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+            <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+          </div>
+        </div>
+      {% endfor %}
     {% endif %}
   {% endfor %}
 {% endif %}
-
-</div>
