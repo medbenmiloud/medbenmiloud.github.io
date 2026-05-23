@@ -6,6 +6,6 @@ permalink: /publication/2025-hil-insulin-delivery-diabetes
 date: 2025-02-03
 venue: 'BIOMEIC 2025 -- International Conference on Biomedical Engineering and Informatics, University of Tlemcen'
 featured: true
+header:
+  teaser: "HILinsulin"
 ---
-
-**Authors:** Benmiloud, M., Guenane, R., Belkheiri, M.
