@@ -9,6 +9,6 @@ volume: 91
 number: 7
 pages: '1720--1729'
 featured: true
+header:
+  teaser: "PlanarLimitCycle.png"
 ---
-
-**Authors:** Benmiloud, M., Benalia, A., Djemai, M., Defoort, M.
