@@ -9,6 +9,7 @@ volume: 42
 number: 15
 pages: '10435--10447'
 featured: true
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0360319917300368'
 header:
   teaser: "PEMFCfuzzy.png"
 ---
