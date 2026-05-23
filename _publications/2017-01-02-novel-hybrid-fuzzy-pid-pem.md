@@ -9,6 +9,6 @@ volume: 42
 number: 15
 pages: '10435--10447'
 featured: true
+header:
+  teaser: "PEMFCfuzzy.png"
 ---
-
-**Authors:** Baroud, Z., Benmiloud, M., Benalia, A., Ocampo-Martinez, C.
